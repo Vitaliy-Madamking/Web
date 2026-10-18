@@ -1,0 +1,20 @@
+body {
+    font-family: Verdana, sans-serif;
+    background: #eef7ff;
+    margin: 20px;
+}
+h2 { color: #1f4e79; }
+input, button {
+    padding: 6px 10px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+button {
+    background: #2e86de;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover { background: #1b4f72; }
+#result { margin-top: 15px; font-size: 20px; color: #148f77; }

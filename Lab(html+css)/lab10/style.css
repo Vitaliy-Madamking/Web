@@ -1,0 +1,16 @@
+body {
+    font-family: 'Courier New', monospace;
+    background: #f0f0f0;
+    margin: 20px;
+}
+h2 { color: #00695c; }
+button {
+    padding: 8px 16px;
+    background: #00897b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover { background: #00695c; }
+#result { margin-top: 15px; line-height: 1.6; font-size: 16px; }

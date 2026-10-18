@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    margin: 20px;
+    text-align: center;
+}
+h2 { color: #333; }
+
+.rectangles {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.rect {
+    width: 120px;
+    height: 80px;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    border-radius: 8px;
+    cursor: pointer;
+
+    /* Плавная анимация вращения */
+    transition: transform 1s ease-in-out;
+}
+
+/* Класс, включающий вращение */
+.rect.rotating {
+    transform: rotate(360deg);
+    /* Продолжаем вращение бесконечно */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}

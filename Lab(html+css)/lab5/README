@@ -1,0 +1,7 @@
+//Строка в JS — последовательность символов в UTF-16.
+//String.prototype.indexOf(' ') возвращает индекс первого пробела.
+//String.prototype.slice(start, end) вырезает часть строки:
+//firstString.slice(0, indexOf(' ')) → "Hello"
+//secondString.slice(indexOf(' ') + 1) → "programming"
+// Объединяем через + с пробелом — получаем "Hello programming".
+//Вывод в консоль (console.log) и на страницу (innerHTML).
